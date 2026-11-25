@@ -80,7 +80,7 @@ def generar(pregunta, contexto, historial):
                 if isinstance(linea, bytes):
                     linea = linea.decode("utf-8")
 
-                if not linea.startswith(b"data:") and not linea.startswith("data:"):
+                if not linea.startswith("data:")
                     continue
 
                 contenido = linea[5:].strip()
