@@ -74,11 +74,11 @@ def generar(pregunta, contexto, historial):
                 raise ErrorLlama("Se alcanzó el límite temporal de solicitudes")
             respuesta.raise_for_status()
 
-            for linea in respuesta.iter_lines(decode_unicode=True):
-                if not linea:
-                    continue
-                if isinstance(linea, bytes):
-                    linea = linea.decode("utf-8", errors="ignore")
+            for linea in respuesta.iter_lines(decode_unicode=False):
+    if not linea:
+        continue
+    if isinstance(linea, bytes):
+        linea = linea.decode("utf-8")
                 if not linea.startswith("data:"):
                     continue
                 contenido = linea[5:].strip()
