@@ -1,5 +1,5 @@
-// PROYECTO: TLAHUACBOT
-// Navegacion entre las pestañas de la pagina (inicio, carreras, chat).
+// PROYECTO: TLAHUACBOT / WOLFI-A
+// Navegación entre las pestañas de la página (inicio, oferta, chat).
 
 const navButtons = document.querySelectorAll(".nav-btn");
 const viewPanels = document.querySelectorAll(".view-panel");
@@ -10,13 +10,25 @@ function cambiarVista(destino) {
     navButtons.forEach(function (btn) {
         btn.classList.toggle("active", btn.dataset.target === destino);
     });
+
     viewPanels.forEach(function (panel) {
-        panel.classList.toggle("active", panel.id === "view-" + destino);
+        const esActiva = panel.id === "view-" + destino;
+        panel.classList.toggle("active", esActiva);
+        if (esActiva) {
+            panel.scrollTop = 0;
+        }
     });
 
-    const campo = document.getElementById("entrada");
-    if (destino === "chat" && campo) {
-        setTimeout(function () { campo.focus(); }, 100);
+    if (destino === "chat") {
+        const contenedorMensajes = document.getElementById("mensajes");
+        if (contenedorMensajes) {
+            contenedorMensajes.scrollTop = contenedorMensajes.scrollHeight;
+        }
+        const campo = document.getElementById("entrada");
+        // Solo auto-enfocar en pantallas grandes para no abrir el teclado de golpe en celular
+        if (campo && window.innerWidth > 768) {
+            setTimeout(function () { campo.focus(); }, 100);
+        }
     }
 }
 
