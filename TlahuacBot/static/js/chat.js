@@ -95,7 +95,7 @@ function mostrarPensando() {
 // Lee la respuesta del servidor (una linea JSON por evento) y avisa de cada una.
 async function leerEventos(respuesta, alEvento) {
     const lector = respuesta.body.getReader();
-    const decodificador = new TextDecoder();
+    const decodificador = new TextDecoder("utf-8");
     let pendiente = "";
 
     while (true) {
