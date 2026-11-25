@@ -1,0 +1,65 @@
+
+[
+    {
+        "id": "ingenieria_mecanica",
+        "nombre": "Ingeniería Mecánica",
+        "modalidad": ["Presencial"],
+        "duracion_semestres": 9,
+        "objetivo": "Formar profesionales capaces de desarrollar y aplicar conocimientos científicos y tecnológicos en el área mecánica.",
+        "que_estudia": "Diseño de máquinas, procesos de manufactura, energía, materiales y mantenimiento.",
+        "que_hace": "Diseña, desarrolla, supervisa y mantiene máquinas y equipos mecánicos.",
+        "campo_laboral": "Industrias manufactureras, automotrices, empresas de mantenimiento y áreas de producción.",
+        "areas": [
+            "Diseño mecánico",
+            "Manufactura",
+            "Energía",
+            "Automatización",
+            "Mantenimiento"
+        ]
+    },
+    {
+        "id": "ingenieria_logistica",
+        "nombre": "Ingeniería en Logística",
+        "modalidad": ["Presencial"],
+        "objetivo": "Formar profesionales capaces de planear y mejorar procesos logísticos.",
+        "que_estudia": "Transporte, almacenamiento, distribución y cadenas de suministro.",
+        "que_hace": "Organiza el movimiento de productos y administra procesos de distribución.",
+        "campo_laboral": "Empresas de transporte, centros de distribución, almacenes y comercio."
+    },
+    {
+        "id": "ingenieria_ti",
+        "nombre": "Ingeniería en Tecnologías de la Información",
+        "modalidad": ["Presencial"],
+        "objetivo": "Formar profesionales capaces de desarrollar soluciones tecnológicas para las organizaciones.",
+        "que_estudia": "Programación, redes, bases de datos y tecnologías digitales.",
+        "que_hace": "Desarrolla e implementa soluciones tecnológicas y administra sistemas de información.",
+        "campo_laboral": "Empresas de tecnología, telecomunicaciones y departamentos de informática."
+    },
+    {
+        "id": "ingenieria_sistemas",
+        "nombre": "Ingeniería en Sistemas Computacionales",
+        "modalidad": ["En línea"],
+        "objetivo": "Formar profesionales capaces de diseñar y desarrollar sistemas computacionales.",
+        "que_estudia": "Programación, desarrollo de software, bases de datos y redes.",
+        "que_hace": "Desarrolla aplicaciones, administra sistemas y crea soluciones informáticas.",
+        "campo_laboral": "Empresas de software, tecnología, consultoría y desarrollo de aplicaciones."
+    },
+    {
+        "id": "ingenieria_gestion",
+        "nombre": "Ingeniería en Gestión Empresarial",
+        "modalidad": ["Presencial", "En línea"],
+        "objetivo": "Formar profesionales capaces de administrar recursos y desarrollar estrategias empresariales.",
+        "que_estudia": "Administración, finanzas, mercadotecnia, recursos humanos y gestión de proyectos.",
+        "que_hace": "Organiza recursos, administra empresas y desarrolla proyectos de negocio.",
+        "campo_laboral": "Empresas públicas, privadas, consultorías y emprendimientos."
+    },
+    {
+        "id": "licenciatura_turismo",
+        "nombre": "Licenciatura en Turismo",
+        "modalidad": ["Presencial"],
+        "objetivo": "Formar profesionales capaces de desarrollar y administrar proyectos turísticos.",
+        "que_estudia": "Administración turística, patrimonio cultural, servicios y turismo sustentable.",
+        "que_hace": "Organiza servicios turísticos y desarrolla proyectos relacionados con el turismo.",
+        "campo_laboral": "Hoteles, agencias de viajes, empresas turísticas y organismos de promoción turística."
+    }
+]

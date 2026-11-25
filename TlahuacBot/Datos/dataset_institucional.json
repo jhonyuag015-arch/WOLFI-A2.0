@@ -1,0 +1,77 @@
+{
+  "institucion": "TecNM Campus Tláhuac II",
+  "fecha_revision": "2026-10-19",
+  "tipo": "dataset_institucional",
+  "nota": "Resúmenes de orientación, no transcripciones literales. Verificar perfil de ingreso con fuente oficial.",
+  "carreras": [
+    {
+      "id": "mecanica",
+      "nombre": "Ingeniería Mecánica",
+      "modalidad": "presencial",
+      "duracion_semestres": 9,
+      "titulo_otorgado": "Ingeniero(a) Mecánico(a)",
+"clave_plan": "IMEC-2010-228",
+"creditos": 260,
+
+"objetivo_general": "Formar profesionales con actitud innovadora y capacidad emprendedora para desarrollar, investigar y aplicar conocimientos científicos y tecnológicos en áreas de Ingeniería Mecánica, como energía, fluidos, diseño, manufactura, automatización, control, materiales, montaje y mantenimiento de equipo. También busca formar profesionales capaces de administrar recursos de manera segura, eficiente y sustentable, con fundamentos éticos y compromiso social.",
+
+      "areas_de_formacion_resumen": "Diseño, manufactura, mantenimiento, automatización, energía y materiales.",
+      "perfil_ingreso": null,
+      
+"perfil_egreso": "El egresado de Ingeniería Mecánica aplica conocimientos matemáticos, computacionales y métodos experimentales para resolver problemas, analizar procesos y desarrollar prototipos mecánicos. Diseña y fabrica elementos mecánicos, selecciona materiales adecuados y gestiona proyectos de manufactura, instalación, operación, automatización y mantenimiento. También administra recursos, participa en proyectos de investigación, desarrolla tecnologías sustentables y aplica normas de seguridad y calidad. Cuenta con habilidades de comunicación, liderazgo, trabajo en equipo, pensamiento crítico y emprendimiento, actuando con responsabilidad ética, social y ambiental.",
+
+      "perfil_ingreso_estado": "Pendiente de verificar en documento institucional específico; no confundir con perfil de egreso",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica"
+    },
+    {
+      "id": "logistica",
+      "nombre": "Ingeniería en Logística",
+      "modalidad": "presencial",
+      "duracion_semestres": 9,
+      "areas_de_formacion_resumen": "Cadenas de suministro, compras, almacenes, inventarios, transporte y distribución.",
+      "perfil_ingreso": null,
+      "perfil_ingreso_estado": "Pendiente de verificar en documento institucional específico; no confundir con perfil de egreso",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/logistica"
+    },
+    {
+      "id": "ti",
+      "nombre": "Ingeniería en Tecnologías de la Información y Comunicaciones",
+      "modalidad": "presencial",
+      "duracion_semestres": 9,
+      "areas_de_formacion_resumen": "Desarrollo de software, redes, bases de datos, seguridad informática y negocios digitales.",
+      "perfil_ingreso": null,
+      "perfil_ingreso_estado": "Pendiente de verificar en documento institucional específico; no confundir con perfil de egreso",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/tecnologias-informacion"
+    },
+    {
+      "id": "gestion",
+      "nombre": "Ingeniería en Gestión Empresarial",
+      "modalidad": "presencial y en línea",
+      "duracion_semestres": 9,
+      "areas_de_formacion_resumen": "Administración, gestión de recursos, procesos empresariales y emprendimiento.",
+      "perfil_ingreso": null,
+      "perfil_ingreso_estado": "Pendiente de verificar en documento institucional específico; no confundir con perfil de egreso",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "id": "sistemas",
+      "nombre": "Ingeniería en Sistemas Computacionales",
+      "modalidad": "en línea",
+      "duracion_semestres": 9,
+      "areas_de_formacion_resumen": "Desarrollo de software, redes, bases de datos y sistemas inteligentes.",
+      "perfil_ingreso": null,
+      "perfil_ingreso_estado": "Pendiente de verificar en documento institucional específico; no confundir con perfil de egreso",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/sistemas-computacionales"
+    },
+    {
+      "id": "turismo",
+      "nombre": "Licenciatura en Turismo",
+      "modalidad": "presencial",
+      "duracion_semestres": 9,
+      "areas_de_formacion_resumen": "Gestión de servicios turísticos, proyectos sustentables y patrimonio cultural y natural.",
+      "perfil_ingreso": null,
+      "perfil_ingreso_estado": "Pendiente de verificar en documento institucional específico; no confundir con perfil de egreso",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    }
+  ]
+}

@@ -1,0 +1,938 @@
+{
+  "institucion": "TecNM Campus Tláhuac II",
+  "fecha_revision": "2026-11-24",
+  "tipo": "dataset_preguntas_respuestas",
+  "nota": "Respuestas de consulta local; no requieren IA generativa. La recuperación por similitud requiere umbral de confianza y respuesta de respaldo.",
+  "registros": [
+    {
+      "intencion": "oferta_educativa",
+      "preguntas": [
+        "¿Qué carreras hay?",
+        "¿Qué carreras ofrece el Tec de Tláhuac II?",
+        "¿Cuál es la oferta educativa?",
+        "¿Qué carreras puedo estudiar en esta escuela?",
+        "¿Qué carreras puedo estudiar en el Tecnológico?",
+        "¿Qué puedo estudiar en el Tec de Tláhuac?",
+        "¿Cuáles son las carreras disponibles?",
+        "¿Qué ingenierías ofrece el Tecnológico?",
+        "¿Qué licenciaturas hay en el campus?",
+        "¿Qué opciones de estudio tiene el Tecnológico?"
+      ],
+      "respuesta": "El Campus Tláhuac II ofrece Ingeniería Mecánica, Ingeniería en Logística, Ingeniería en Tecnologías de la Información, Ingeniería en Gestión Empresarial, Ingeniería en Sistemas Computacionales y Licenciatura en Turismo.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "modalidades",
+      "preguntas": [
+        "¿Qué carreras hay en línea?",
+        "¿Qué puedo estudiar a distancia?",
+        "¿Hay carreras virtuales?"
+      ],
+      "respuesta": "En línea se ofrecen Ingeniería en Sistemas Computacionales e Ingeniería en Gestión Empresarial. Gestión Empresarial también tiene modalidad presencial.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "duracion",
+      "preguntas": [
+        "¿Cuántos semestres duran las carreras?",
+        "¿Cuánto dura una carrera?",
+        "¿Cuántos años son?"
+      ],
+      "respuesta": "La oferta educativa del campus indica una duración de 9 semestres para sus programas.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "mecanica_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería Mecánica?",
+        "¿De qué trata Ingeniería Mecánica?",
+        "¿Qué hace alguien que estudia Ingeniería Mecánica?"
+      ],
+      "respuesta": "En Ingeniería Mecánica se estudian temas relacionados con diseño, construcción, funcionamiento y mantenimiento de maquinaria y sistemas mecánicos.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "mecanica_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería Mecánica?",
+        "¿Cuál es el campo laboral de Ingeniería Mecánica?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería Mecánica están: en industrias manufactureras, mantenimiento, diseño mecánico y producción.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "mecanica_modalidad",
+      "preguntas": [
+        "¿Ingeniería Mecánica es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería Mecánica?"
+      ],
+      "respuesta": "Ingeniería Mecánica se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "logistica_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Logística?",
+        "¿De qué trata Ingeniería en Logística?",
+        "¿Qué hace alguien que estudia Ingeniería en Logística?"
+      ],
+      "respuesta": "En Ingeniería en Logística se estudian temas relacionados con planeación y gestión del transporte, almacenamiento, inventarios y cadenas de suministro.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "logistica_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Logística?",
+        "¿Cuál es el campo laboral de Ingeniería en Logística?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Logística están: en transporte, almacenes, distribución y gestión de cadenas de suministro.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "logistica_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Logística es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Logística?"
+      ],
+      "respuesta": "Ingeniería en Logística se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "ti_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Tecnologías de la Información?",
+        "¿De qué trata Ingeniería en Tecnologías de la Información?",
+        "¿Qué hace alguien que estudia Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "En Ingeniería en Tecnologías de la Información se estudian temas relacionados con programación, redes, ciberseguridad y desarrollo de soluciones tecnológicas.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "ti_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Tecnologías de la Información?",
+        "¿Cuál es el campo laboral de Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Tecnologías de la Información están: en desarrollo de software, redes, soporte tecnológico y seguridad informática.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "ti_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Tecnologías de la Información es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "Ingeniería en Tecnologías de la Información se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "gestion_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Gestión Empresarial?",
+        "¿De qué trata Ingeniería en Gestión Empresarial?",
+        "¿Qué hace alguien que estudia Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "En Ingeniería en Gestión Empresarial se estudian temas relacionados con administración de recursos, innovación de procesos y estrategias de negocios.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "gestion_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Gestión Empresarial?",
+        "¿Cuál es el campo laboral de Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Gestión Empresarial están: en administración, gestión de proyectos, consultoría y emprendimiento.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "gestion_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Gestión Empresarial es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "Ingeniería en Gestión Empresarial se ofrece en modalidad presencial y en línea. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "sistemas_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Sistemas Computacionales?",
+        "¿De qué trata Ingeniería en Sistemas Computacionales?",
+        "¿Qué hace alguien que estudia Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "En Ingeniería en Sistemas Computacionales se estudian temas relacionados con desarrollo de software, redes y sistemas inteligentes.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "sistemas_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Sistemas Computacionales?",
+        "¿Cuál es el campo laboral de Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Sistemas Computacionales están: en programación, análisis de sistemas, redes y desarrollo tecnológico.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "sistemas_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Sistemas Computacionales es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "Ingeniería en Sistemas Computacionales se ofrece en modalidad en línea. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "turismo_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Licenciatura en Turismo?",
+        "¿De qué trata Licenciatura en Turismo?",
+        "¿Qué hace alguien que estudia Licenciatura en Turismo?"
+      ],
+      "respuesta": "En Licenciatura en Turismo se estudian temas relacionados con gestión de servicios turísticos y desarrollo de proyectos de turismo sustentable.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "turismo_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Licenciatura en Turismo?",
+        "¿Cuál es el campo laboral de Licenciatura en Turismo?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Licenciatura en Turismo están: en empresas turísticas, servicios de hospedaje, planificación y gestión de proyectos turísticos.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "turismo_modalidad",
+      "preguntas": [
+        "¿Licenciatura en Turismo es presencial o en línea?",
+        "¿Qué modalidad tiene Licenciatura en Turismo?"
+      ],
+      "respuesta": "Licenciatura en Turismo se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "admision",
+      "preguntas": [
+        "¿Cómo me inscribo?",
+        "¿Cómo es el proceso de admisión?",
+        "¿Dónde solicito ficha?",
+        "¿Cuáles son los pasos de admisión?",
+        "¿Cómo es el proceso de nuevo ingreso?",
+        "¿Cómo puedo entrar al tecnológico?",
+        "¿Cómo saco mi ficha?",
+        "Quiero inscribirme al Tec"
+      ],
+      "respuesta": "Regístrate, genera tu ficha y realiza el pago del examen, presenta el examen, consulta tus resultados y, si eres aceptado, entrega el comprobante de inscripción y acude a tu cita de documentos. Revisa la convocatoria vigente y el portal de aspirantes (https://sii.tlahuac2.tecnm.mx/asp) para conocer fechas y requisitos.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "sin_respuesta",
+      "preguntas": [
+        "No encuentro mi pregunta",
+        "Necesito ayuda de una persona"
+      ],
+      "respuesta": "No tengo información oficial suficiente para responder esa consulta. Te recomiendo comunicarte con el área correspondiente del campus.",
+      "fuente": "https://tlahuac2.tecnm.mx/"
+    },
+    {
+      "intencion": "mecanica_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería Mecánica?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería Mecánica?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería Mecánica?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería Mecánica está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "logistica_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Logística?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Logística?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Logística?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Logística está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/logistica",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "ti_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Tecnologías de la Información y Comunicaciones?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Tecnologías de la Información y Comunicaciones?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Tecnologías de la Información y Comunicaciones?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Tecnologías de la Información y Comunicaciones está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/tecnologias-informacion",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "gestion_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Gestión Empresarial?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Gestión Empresarial?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Gestión Empresarial está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "sistemas_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Sistemas Computacionales?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Sistemas Computacionales?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Sistemas Computacionales está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/sistemas-computacionales",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "turismo_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Licenciatura en Turismo?",
+        "¿Qué conocimientos necesito para entrar a Licenciatura en Turismo?",
+        "¿Qué habilidades se recomiendan para estudiar Licenciatura en Turismo?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Licenciatura en Turismo está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "objetivo_mecanica",
+      "preguntas": [
+        "¿Cuál es el objetivo de Ingeniería Mecánica?",
+        "¿Para qué sirve estudiar Ingeniería Mecánica?",
+        "¿Qué busca formar la carrera de Ingeniería Mecánica?",
+        "¿Cuál es el objetivo general de Mecánica?",
+        "¿Qué aprenderé en Ingeniería Mecánica?"
+      ],
+      "respuesta": "El objetivo de Ingeniería Mecánica es formar profesionales innovadores y emprendedores capaces de aplicar conocimientos científicos y tecnológicos en diseño, manufactura, energía, automatización y mantenimiento de sistemas mecánicos, administrando recursos de manera segura, eficiente y sustentable, con ética y compromiso social.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica"
+    },
+    {
+      "intencion": "perfil_egreso_mecanica",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Ingeniería Mecánica?",
+        "¿Qué habilidades tendré al terminar Ingeniería Mecánica?",
+        "¿Qué conocimientos obtiene un egresado de Mecánica?",
+        "¿Qué capacidades desarrolla un ingeniero mecánico?",
+        "¿Qué sabré hacer cuando termine Ingeniería Mecánica?"
+      ],
+      "respuesta": "El egresado de Ingeniería Mecánica puede diseñar y fabricar elementos mecánicos, seleccionar materiales, desarrollar prototipos, gestionar proyectos de manufactura, automatización y mantenimiento, aplicar normas de calidad y seguridad, y participar en proyectos tecnológicos sustentables. También desarrolla liderazgo, pensamiento crítico, trabajo en equipo y responsabilidad ética y ambiental.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica"
+    },
+    {
+      "intencion": "admision_registro",
+      "preguntas": [
+        "¿Cómo me registro?",
+        "¿Necesito crear una cuenta para solicitar mi ficha?",
+        "¿Dónde me registro como aspirante?",
+        "¿Con qué me registro en el portal de aspirantes?"
+      ],
+      "respuesta": "Inicia el trámite en https://sii.tlahuac2.tecnm.mx/asp utilizando tu CURP. No necesitas crear una cuenta.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "admision_documentos",
+      "preguntas": [
+        "¿Qué necesito para registrarme?",
+        "¿Qué documentos necesito para solicitar mi ficha?",
+        "¿Qué documentos piden para el registro?",
+        "¿Qué tengo que subir para sacar mi ficha?"
+      ],
+      "respuesta": "Ten a la mano tu CURP, correo personal y certificado o constancia de estudios en PDF. Completa los datos y el estudio socioeconómico solicitados.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "admision_resultados",
+      "preguntas": [
+        "¿Cómo consulto mis resultados?",
+        "¿Cómo sé si fui aceptado?",
+        "¿Para qué sirve mi número de solicitud?",
+        "¿Dónde veo los resultados del examen?",
+        "¿Cómo veo si quedé?"
+      ],
+      "respuesta": "Ingresa al portal de aspirantes con tu CURP y número de solicitud para consultar el avance y resultado del trámite.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "admision_inicio_clases",
+      "preguntas": [
+        "¿Cuándo empiezan las clases de nuevo ingreso?",
+        "¿Cuándo inicia el semestre enero-junio 2027?",
+        "¿Cuándo empiezan las clases?",
+        "¿Cuándo entro a clases?"
+      ],
+      "respuesta": "El portal nacional del TecNM indica el 25 de enero de 2027 como inicio del semestre enero-junio 2027.",
+      "fuente": "https://www.tecnm.mx/?vista=Admision",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "admision_folio",
+      "preguntas": [
+        "¿Qué hago si pierdo mi número de solicitud?",
+        "¿Cómo recupero mi folio?",
+        "¿Puedo consultar mi trámite sin folio?"
+      ],
+      "respuesta": "El portal utiliza la CURP y el número de solicitud para consultar el trámite. Si no conservas el número, solicita orientación a Servicios Escolares; no se ha confirmado un mecanismo de recuperación automática.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "admision_certificado",
+      "preguntas": [
+        "¿Puedo registrarme sin certificado de preparatoria?",
+        "¿Todavía estoy en preparatoria, puedo iniciar el trámite?",
+        "¿Sirve una constancia de estudios?",
+        "¿Necesito haber terminado el bachillerato para registrarme?"
+      ],
+      "respuesta": "La información recopilada contempla certificado o constancia de estudios para el registro inicial. La documentación definitiva y sus plazos deben confirmarse con Servicios Escolares.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "admision_preparar_documentos",
+      "preguntas": [
+        "¿Cómo preparo mis documentos?",
+        "¿En qué formato subo mis archivos?",
+        "¿Qué debo revisar antes de registrarme?"
+      ],
+      "respuesta": "Prepara los documentos solicitados en PDF, verifica que sean legibles y que tus datos coincidan. Usa un correo personal al que tengas acceso y conserva tu número de solicitud.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "admision_despues_aceptacion",
+      "preguntas": [
+        "¿Qué hago si quedé aceptado?",
+        "¿Ya estoy inscrito si pasé el examen?",
+        "¿Qué sigue después de los resultados?"
+      ],
+      "respuesta": "La aceptación no sustituye la inscripción. Debes seguir las instrucciones de pago y entrega de documentos indicadas para tu convocatoria.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "admision_fechas",
+      "preguntas": [
+        "¿Hasta cuándo puedo registrarme?",
+        "¿Cuándo cierra la convocatoria?",
+        "¿Cuándo es el examen?",
+        "¿Cuándo es el examen de admisión?",
+        "¿Qué día es el examen de admisión?",
+        "¿Cuál es la fecha límite para registrarme?",
+        "¿Cuándo abren las fichas?"
+      ],
+      "respuesta": "Las fechas de registro y de examen deben confirmarse en la convocatoria vigente y con Servicios Escolares, porque el portal de aspirantes y la convocatoria publicada no coinciden. Por eso no te doy una fecha límite definitiva. Contacto: teléfonos 55 7261 7288 y 55 8848 4456, extensión 102; correo sescolares@tlahuac2.tecnm.mx.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "costos_examen",
+      "preguntas": [
+        "¿Cuánto cuesta el examen de admisión?",
+        "¿Cuánto cuesta el derecho al proceso de admisión?",
+        "¿Cuánto debo pagar para presentar el examen?",
+        "¿Cuánto cuesta la ficha?",
+        "¿Cuál es el precio del examen de admisión?",
+        "¿Cuánto sale el examen?"
+      ],
+      "respuesta": "El derecho al examen de admisión para enero-junio 2027 es de $1,100 en ambas modalidades.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "costos_inscripcion",
+      "preguntas": [
+        "¿Cuánto cuesta la inscripción?",
+        "¿Cuánto cuesta inscribirme?",
+        "¿Cuál es el costo de la inscripción?"
+      ],
+      "respuesta": "La cuota de inscripción de nuevo ingreso para enero-junio 2027 es de $1,800 en modalidad presencial y de $2,000 en modalidad no escolarizada (virtual).",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "costos_inscripcion_presencial",
+      "preguntas": [
+        "¿Cuánto cuesta la inscripción presencial?",
+        "¿Cuánto cuesta entrar a una carrera presencial?"
+      ],
+      "respuesta": "La cuota de inscripción de nuevo ingreso presencial para enero-junio 2027 es de $1,800.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "costos_inscripcion_virtual",
+      "preguntas": [
+        "¿Cuánto cuesta la inscripción en línea?",
+        "¿Cuánto cuesta inscribirme en modalidad virtual?",
+        "¿Cuánto pago por inscribirme en línea?",
+        "¿Cuánto cuesta la inscripción virtual?"
+      ],
+      "respuesta": "La cuota de inscripción de nuevo ingreso en modalidad no escolarizada para enero-junio 2027 es de $2,000.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "costos_total_inicial",
+      "preguntas": [
+        "¿Cuánto necesito para el examen y la inscripción?",
+        "¿Cuánto gastaría para entrar al tecnológico?",
+        "¿Cuánto cuesta entrar al Tec?"
+      ],
+      "respuesta": "La suma del examen y la inscripción es de $2,900 en modalidad presencial y $3,100 en modalidad virtual. No incluye otros gastos o trámites.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "costos_diferencia_pagos",
+      "preguntas": [
+        "¿La ficha incluye la inscripción?",
+        "¿El examen y la inscripción son lo mismo?",
+        "¿Tengo que pagar dos conceptos?"
+      ],
+      "respuesta": "Son conceptos distintos: el examen de admisión cuesta $1,100 y la inscripción de nuevo ingreso cuesta $1,800 presencial o $2,000 virtual, según la información recopilada para enero-junio 2027.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "costos_reinscripcion",
+      "preguntas": [
+        "¿Cuánto cuesta el siguiente semestre?",
+        "¿Cuánto pagan los alumnos que ya estudian?",
+        "¿La reinscripción cuesta igual que la inscripción?",
+        "¿Cuánto es la colegiatura?"
+      ],
+      "respuesta": "Los precios de nuevo ingreso no deben utilizarse como cuotas de alumnos regulares. Las cuotas de reinscripción pueden variar según lo determine el TecNM; consúltalas con Servicios Escolares.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "costos_forma_pago",
+      "preguntas": [
+        "¿Dónde pago la inscripción?",
+        "¿Puedo pagar por transferencia?",
+        "¿A qué cuenta deposito?",
+        "¿Dónde puedo pagar mi ficha?"
+      ],
+      "respuesta": "Consulta las instrucciones de pago de tu ficha o convocatoria. Normalmente se pone el número de cuenta de la institución y se puede pagar en BBVA y por transferencia bancaria. Conserva el comprobante.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "costos_otros_gastos",
+      "preguntas": [
+        "¿El total incluye materiales?",
+        "¿Hay gastos adicionales?",
+        "¿Cuánto cuesta toda la carrera?",
+        "¿Cuánto cuesta la carrera completa?",
+        "¿Cuánto cuesta estudiar en el Tec?"
+      ],
+      "respuesta": "El total inicial solo suma examen e inscripción. No incluye transporte, materiales ni otros trámites. No se dispone de un costo total oficial de la carrera.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "costos_vigencia",
+      "preguntas": [
+        "¿Estos precios aplican siempre?",
+        "¿Cuánto cuesta entrar el próximo año?",
+        "¿Cambian las cuotas?"
+      ],
+      "respuesta": "Los importes recopilados corresponden al periodo enero-junio 2027. Deben revisarse cuando se publique una nueva convocatoria.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "becas_donde_consultar",
+      "preguntas": [
+        "¿Dónde consulto las becas?",
+        "¿Cómo encuentro apoyos económicos?",
+        "¿Dónde publican convocatorias de becas?"
+      ],
+      "respuesta": "Consulta la sección de convocatorias del campus (https://tlahuac2.tecnm.mx/convocatorias) y el apartado de becas y apoyos del TecNM (https://www.dgest.gob.mx/accesos/becas-y-apoyos). Revisa las condiciones de cada convocatoria antes de solicitar un apoyo.",
+      "fuente": "https://tlahuac2.tecnm.mx/convocatorias",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "becas_disponibles",
+      "preguntas": [
+        "¿Qué becas están disponibles actualmente?",
+        "¿Cuánto dinero dan de beca?",
+        "¿Cuándo puedo solicitar una beca?",
+        "¿Hay becas?",
+        "¿Me pueden dar una beca?"
+      ],
+      "respuesta": "No cuento con información confirmada sobre becas abiertas, montos o fechas específicas del campus. Consulta las convocatorias oficiales acerca de estos beneficios.",
+      "fuente": "https://tlahuac2.tecnm.mx/convocatorias",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "becas_federales",
+      "preguntas": [
+        "¿Existe la beca Jóvenes Escribiendo el Futuro?",
+        "¿Puedo pedir una beca Benito Juárez?",
+        "¿El tecnológico participa en becas federales?"
+      ],
+      "respuesta": "Jóvenes Escribiendo el Futuro es un programa federal de educación superior. La elegibilidad del campus y de cada estudiante debe consultarse en la convocatoria vigente; no se garantiza que todos puedan recibirla.",
+      "fuente": "https://buscador.becasbenitojuarez.gob.mx/escuelas/",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "becas_subes",
+      "preguntas": [
+        "¿Qué es SUBES?",
+        "¿Dónde registro mi solicitud de beca?",
+        "¿Cómo entro al sistema de becas?"
+      ],
+      "respuesta": "SUBES es el Sistema Único de Beneficiarios de Educación Superior. Consulta https://subes.becasbenitojuarez.gob.mx/ y sigue el procedimiento de la convocatoria que corresponda. No todas las becas usan el mismo procedimiento.",
+      "fuente": "https://subes.becasbenitojuarez.gob.mx/",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "becas_preparacion",
+      "preguntas": [
+        "¿Qué documentos necesito para una beca?",
+        "¿Qué debo tener listo para solicitar una beca?",
+        "¿Necesito mi CURP para solicitar apoyo?"
+      ],
+      "respuesta": "Como preparación general, ten disponibles tu CURP, correo personal y datos escolares. Los documentos obligatorios dependen de cada convocatoria; no se han confirmado requisitos particulares del campus.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "becas_resultados",
+      "preguntas": [
+        "¿Cómo sé si me dieron una beca?",
+        "¿Puedo tener dos becas?",
+        "¿La beca paga mi inscripción?"
+      ],
+      "respuesta": "Consulta los resultados y reglas de compatibilidad del programa correspondiente. No se ha confirmado que un apoyo cubra la inscripción ni que pueda combinarse con otro.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "becas_elegibilidad_escuela",
+      "preguntas": [
+        "¿Cómo sé si mi escuela es elegible?",
+        "¿Dónde reviso si mi plantel participa en las becas?",
+        "¿Mi carrera tiene beca?"
+      ],
+      "respuesta": "Consulta el buscador oficial https://buscador.becasbenitojuarez.gob.mx/escuelas/ y las reglas de la convocatoria. La presencia del plantel no garantiza una beca individual.",
+      "fuente": "https://buscador.becasbenitojuarez.gob.mx/escuelas/",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "servicios_sii_alumnos",
+      "preguntas": [
+        "¿Dónde consulto mi kardex?",
+        "¿Cómo veo mis horarios?",
+        "¿Dónde hago mi reinscripción?",
+        "¿Dónde veo mi kardex?"
+      ],
+      "respuesta": "Accede al apartado de alumnos del Sistema Integral de Información (SII) con tu número de control y NIP: https://sii.tlahuac2.tecnm.mx/",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "servicios_ubicacion",
+      "preguntas": [
+        "¿Dónde está el tecnológico?",
+        "¿Cuál es su dirección?",
+        "¿Dónde queda el Tec?",
+        "¿Cómo llego al Tec?",
+        "¿Cómo llegar al Tec?",
+        "¿Cuál es la ubicación del Tec?",
+        "¿Dónde está ubicado el Tec?",
+        "¿Dónde se ubica el tecnológico?",
+        "Ubicación",
+        "Dame la ubicación"
+      ],
+      "respuesta": "Av. Camino Real #625, Mexico City, Mexico, 13550.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "servicios_contacto",
+      "preguntas": [
+        "¿Cómo contacto a Servicios Escolares?",
+        "¿Cuál es el teléfono del tecnológico?",
+        "¿Cuál es el correo de Servicios Escolares?",
+        "¿A qué número marco para pedir informes?"
+      ],
+      "respuesta": "Los teléfonos publicados en la convocatoria son 55 7261 7288 y 55 8848 4456, extensión 102. Para cuestiones de admisión presencial, la convocatoria publica sescolares@tlahuac2.tecnm.mx.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "verificado"
+    },
+    {
+      "intencion": "servicios_acceso_sii",
+      "preguntas": [
+        "¿Qué es el SII?",
+        "¿Cómo entro al sistema escolar?",
+        "¿Qué datos necesito para iniciar sesión?"
+      ],
+      "respuesta": "El Sistema Integral de Información es el portal escolar. Accede desde https://sii.tlahuac2.tecnm.mx/ con tus credenciales de alumno. No compartas tu NIP con el chatbot.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "servicios_problemas_acceso",
+      "preguntas": [
+        "¿Olvidé mi NIP, qué hago?",
+        "¿Por qué no puedo entrar al SII?",
+        "¿Qué hago si no carga la página?"
+      ],
+      "respuesta": "Verifica tus datos y vuelve a intentar más tarde si el portal no responde. Si el problema continúa, contacta a Servicios Escolares. No se ha confirmado un procedimiento automático de recuperación.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "servicios_kardex",
+      "preguntas": [
+        "¿Qué es el kardex?",
+        "¿Dónde veo mis calificaciones?",
+        "¿Cómo reviso mi avance académico?"
+      ],
+      "respuesta": "El kardex es un registro del avance académico y las asignaturas cursadas. Consulta el apartado de alumnos del SII; para documentos oficiales solicita orientación a Servicios Escolares.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "servicios_constancias",
+      "preguntas": [
+        "¿Dónde pido una constancia de estudios?",
+        "¿Cómo solicito un historial académico?",
+        "¿Cuánto cuesta una constancia?"
+      ],
+      "respuesta": "Solicita orientación a Servicios Escolares para conocer requisitos, costo y entrega. No se han confirmado las cuotas ni los plazos de estos trámites.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "servicios_contacto_dudas",
+      "preguntas": [
+        "¿A quién pregunto si tengo dudas de inscripción?",
+        "¿Dónde aclaro un pago?",
+        "¿Con quién confirmo los requisitos?"
+      ],
+      "respuesta": "Contacta a Servicios Escolares: teléfonos 55 7261 7288 y 55 8848 4456, extensión 102; correo sescolares@tlahuac2.tecnm.mx. Confirma que los datos correspondan al periodo de tu trámite.",
+      "fuente": "https://www.tecnm.mx/dir_escolares/convocatorias_ingreso/114/licenciaturaescolarizada_2027_1.pdf",
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_servicio_social",
+      "preguntas": [
+        "¿Qué es el servicio social?",
+        "¿Para qué sirve el servicio social?",
+        "¿Cuándo puedo iniciar mi servicio social?"
+      ],
+      "respuesta": "Es una actividad formativa de beneficio social. Consulta al área responsable del campus para confirmar créditos requeridos, horas, programas autorizados y fechas de registro.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_residencias",
+      "preguntas": [
+        "¿Qué son las residencias profesionales?",
+        "¿Dónde puedo hacer mis residencias?",
+        "¿Cómo registro un proyecto de residencia?"
+      ],
+      "respuesta": "Son una experiencia formativa en la que se aplican conocimientos de la carrera a un proyecto profesional. Confirma con el área académica las opciones, requisitos, asesorías y procedimiento de registro.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_titulacion",
+      "preguntas": [
+        "¿Cómo me titulo?",
+        "¿Qué necesito para obtener mi título?",
+        "¿Cuáles son las opciones de titulación?"
+      ],
+      "respuesta": "La titulación es el proceso para obtener el título profesional tras cumplir los requisitos académicos y administrativos aplicables. Solicita las opciones y requisitos vigentes a Servicios Escolares y al área académica.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_reticula",
+      "preguntas": [
+        "¿Qué es una retícula?",
+        "¿Dónde veo las materias de mi carrera?",
+        "¿Qué materias llevo por semestre?"
+      ],
+      "respuesta": "La retícula organiza las asignaturas del plan de estudios. Consulta la versión correspondiente a tu carrera y generación. No se dispone de las retículas completas verificadas.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_actividades",
+      "preguntas": [
+        "¿Qué son las actividades complementarias?",
+        "¿Hay talleres deportivos?",
+        "¿Hay actividades culturales?"
+      ],
+      "respuesta": "Son actividades que complementan la formación académica. Consulta al campus la oferta vigente, los horarios y las condiciones para acreditar actividades.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_cambio_carrera",
+      "preguntas": [
+        "¿Puedo cambiarme de carrera?",
+        "¿Cómo solicito un cambio de ingeniería?",
+        "¿Puedo cambiar de modalidad?",
+        "¿Puedo cambiarme a otra carrera después?"
+      ],
+      "respuesta": "Consulta a Servicios Escolares y al área académica para conocer si el cambio es posible y qué requisitos se aplican. No se ha confirmado un procedimiento específico.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "tramites_baja",
+      "preguntas": [
+        "¿Cómo solicito una baja temporal?",
+        "¿Puedo dejar de estudiar un semestre?",
+        "¿Qué pasa si quiero regresar?"
+      ],
+      "respuesta": "Solicita orientación antes de interrumpir tus estudios. Los plazos, requisitos y efectos académicos dependen de la normativa y de tu situación escolar.",
+      "fuente": null,
+      "estado": "orientacion_general"
+    },
+    {
+      "intencion": "objetivo_logistica",
+      "preguntas": [
+        "¿Cuál es el objetivo de Ingeniería en Logística?",
+        "¿Para qué sirve estudiar Ingeniería en Logística?",
+        "¿Qué busca formar la carrera de Ingeniería en Logística?",
+        "¿Cuál es el objetivo general de Logística?",
+        "¿Qué aprenderé en Ingeniería en Logística?"
+      ],
+      "respuesta": "El objetivo de Ingeniería en Logística es formar profesionales capaces de planear y mejorar procesos logísticos, mejorando el flujo de recursos y productos en las cadenas de suministro: compras, almacenes, inventarios, transporte y distribución. Es un resumen orientativo; el objetivo oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "perfil_egreso_logistica",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Ingeniería en Logística?",
+        "¿Qué habilidades tendré al terminar Ingeniería en Logística?",
+        "¿Qué conocimientos obtiene un egresado de Logística?",
+        "¿Qué capacidades desarrolla un egresado de Logística?",
+        "¿Qué sabré hacer cuando termine Ingeniería en Logística?"
+      ],
+      "respuesta": "Un egresado de Ingeniería en Logística organiza el movimiento de productos y administra procesos de distribución. Puede planear transporte, gestionar inventarios, optimizar el almacenamiento y participar en compras y cadenas de suministro. Es un resumen orientativo; el perfil oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "objetivo_ti",
+      "preguntas": [
+        "¿Cuál es el objetivo de Ingeniería en Tecnologías de la Información?",
+        "¿Para qué sirve estudiar Ingeniería en Tecnologías de la Información?",
+        "¿Qué busca formar la carrera de Ingeniería en Tecnologías de la Información?",
+        "¿Cuál es el objetivo general de TI?",
+        "¿Qué aprenderé en Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "El objetivo de Ingeniería en Tecnologías de la Información es formar profesionales capaces de desarrollar soluciones tecnológicas y de comunicación para las necesidades de las organizaciones, con bases en desarrollo de software, redes, bases de datos, seguridad informática y negocios digitales. Es un resumen orientativo; el objetivo oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "perfil_egreso_ti",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Ingeniería en Tecnologías de la Información?",
+        "¿Qué habilidades tendré al terminar Ingeniería en Tecnologías de la Información?",
+        "¿Qué conocimientos obtiene un egresado de TI?",
+        "¿Qué capacidades desarrolla un egresado de TI?",
+        "¿Qué sabré hacer cuando termine Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "Un egresado de Ingeniería en Tecnologías de la Información desarrolla e implementa soluciones tecnológicas y administra sistemas de información. Puede programar aplicaciones, administrar redes y bases de datos y proteger la información de una organización. Es un resumen orientativo; el perfil oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "objetivo_gestion",
+      "preguntas": [
+        "¿Cuál es el objetivo de Ingeniería en Gestión Empresarial?",
+        "¿Para qué sirve estudiar Ingeniería en Gestión Empresarial?",
+        "¿Qué busca formar la carrera de Ingeniería en Gestión Empresarial?",
+        "¿Cuál es el objetivo general de Gestión Empresarial?",
+        "¿Qué aprenderé en Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "El objetivo de Ingeniería en Gestión Empresarial es formar profesionales capaces de administrar recursos y desarrollar estrategias empresariales para mejorar el funcionamiento de las organizaciones, con enfoque en procesos empresariales y emprendimiento. Es un resumen orientativo; el objetivo oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "perfil_egreso_gestion",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Ingeniería en Gestión Empresarial?",
+        "¿Qué habilidades tendré al terminar Ingeniería en Gestión Empresarial?",
+        "¿Qué conocimientos obtiene un egresado de Gestión Empresarial?",
+        "¿Qué capacidades desarrolla un egresado de Gestión Empresarial?",
+        "¿Qué sabré hacer cuando termine Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "Un egresado de Ingeniería en Gestión Empresarial organiza recursos, administra empresas y desarrolla proyectos de negocio. Puede administrar recursos, mejorar procesos y gestionar o emprender proyectos en empresas públicas, privadas o propias. Es un resumen orientativo; el perfil oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "objetivo_sistemas",
+      "preguntas": [
+        "¿Cuál es el objetivo de Ingeniería en Sistemas Computacionales?",
+        "¿Para qué sirve estudiar Ingeniería en Sistemas Computacionales?",
+        "¿Qué busca formar la carrera de Ingeniería en Sistemas Computacionales?",
+        "¿Cuál es el objetivo general de Sistemas Computacionales?",
+        "¿Qué aprenderé en Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "El objetivo de Ingeniería en Sistemas Computacionales es formar profesionales capaces de diseñar y desarrollar sistemas computacionales para resolver problemas, con bases en desarrollo de software, bases de datos, redes y sistemas inteligentes. Es un resumen orientativo; el objetivo oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "perfil_egreso_sistemas",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Ingeniería en Sistemas Computacionales?",
+        "¿Qué habilidades tendré al terminar Ingeniería en Sistemas Computacionales?",
+        "¿Qué conocimientos obtiene un egresado de Sistemas Computacionales?",
+        "¿Qué capacidades desarrolla un egresado de Sistemas Computacionales?",
+        "¿Qué sabré hacer cuando termine Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "Un egresado de Ingeniería en Sistemas Computacionales desarrolla aplicaciones, administra sistemas y crea soluciones informáticas. Puede desarrollar software, gestionar datos y redes y construir sistemas inteligentes. Es un resumen orientativo; el perfil oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "objetivo_turismo",
+      "preguntas": [
+        "¿Cuál es el objetivo de Licenciatura en Turismo?",
+        "¿Para qué sirve estudiar Licenciatura en Turismo?",
+        "¿Qué busca formar la carrera de Licenciatura en Turismo?",
+        "¿Cuál es el objetivo general de Turismo?",
+        "¿Qué aprenderé en Licenciatura en Turismo?"
+      ],
+      "respuesta": "El objetivo de Licenciatura en Turismo es formar profesionales capaces de desarrollar y administrar proyectos turísticos, con enfoque sustentable y atención al patrimonio cultural y natural. Es un resumen orientativo; el objetivo oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    },
+    {
+      "intencion": "perfil_egreso_turismo",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Licenciatura en Turismo?",
+        "¿Qué habilidades tendré al terminar Licenciatura en Turismo?",
+        "¿Qué conocimientos obtiene un egresado de Turismo?",
+        "¿Qué capacidades desarrolla un egresado de Turismo?",
+        "¿Qué sabré hacer cuando termine Licenciatura en Turismo?"
+      ],
+      "respuesta": "Un egresado de Licenciatura en Turismo organiza servicios turísticos y desarrolla proyectos relacionados con el turismo. Puede gestionar servicios turísticos, planear proyectos y promover la conservación del patrimonio cultural y natural. Es un resumen orientativo; el perfil oficial lo confirma el Tec.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "didactico_no_oficial"
+    }
+  ]
+}
