@@ -1,3 +1,4 @@
+
 # Capa de inteligencia artificial en la nube mediante Groq.
 # Mantiene la misma interfaz que conversacion.py espera del antiguo Ollama.
 
@@ -39,11 +40,13 @@ class ErrorLlama(Exception):
 
 def generar(pregunta, contexto, historial):
     """Genera texto progresivamente usando el endpoint compatible de Groq."""
+
     if not cfg.GROQ_API_KEY:
         raise ErrorLlama("Falta configurar GROQ_API_KEY en el servidor")
 
     mensajes = [{"role": "system", "content": SISTEMA}]
     mensajes += historial[-cfg.MAX_HISTORIAL:]
+
     mensajes.append({
         "role": "user",
         "content": f"CONTEXTO OFICIAL:\n{contexto}\n\nPREGUNTA: {pregunta}",
@@ -55,6 +58,7 @@ def generar(pregunta, contexto, historial):
         "stream": True,
         **cfg.OPCIONES,
     }
+
     cabeceras = {
         "Authorization": f"Bearer {cfg.GROQ_API_KEY}",
         "Content-Type": "application/json",
@@ -68,37 +72,49 @@ def generar(pregunta, contexto, historial):
             stream=True,
             timeout=(cfg.TIMEOUT_CONEXION, cfg.TIMEOUT_RESPUESTA),
         ) as respuesta:
+
             if respuesta.status_code == 401:
                 raise ErrorLlama("La clave de Groq no es válida")
+
             if respuesta.status_code == 429:
                 raise ErrorLlama("Se alcanzó el límite temporal de solicitudes")
-            respuesta.raise_for_status()
-                 for linea in respuesta.iter_lines(decode_unicode=False):
-            if not linea:
-                continue
 
-             if isinstance(linea, bytes):
+            respuesta.raise_for_status()
+
+            for linea in respuesta.iter_lines(decode_unicode=False):
+                if not linea:
+                    continue
+
+                if isinstance(linea, bytes):
                     linea = linea.decode("utf-8")
 
-            if not linea.startswith("data:"):
-                continue
+                if not linea.startswith("data:"):
+                    continue
 
                 contenido = linea[5:].strip()
+
                 if contenido == "[DONE]":
                     return
+
                 try:
                     dato = json.loads(contenido)
                 except json.JSONDecodeError:
                     continue
+
                 elecciones = dato.get("choices", [])
+
                 if not elecciones:
                     continue
+
                 delta = elecciones[0].get("delta", {})
                 trozo = delta.get("content") or ""
+
                 if trozo:
                     yield trozo
+
     except ErrorLlama:
         raise
+
     except (requests.RequestException, ValueError) as error:
         raise ErrorLlama(str(error)) from error
 
@@ -109,11 +125,20 @@ def limpiar_trozo(trozo):
 
 def limpiar(texto):
     texto = limpiar_trozo(texto)
-    texto = re.sub(r"^\s*[-•]\s+", "", texto, flags=re.MULTILINE).strip()
+
+    texto = re.sub(
+        r"^\s*[-•]\s+",
+        "",
+        texto,
+        flags=re.MULTILINE
+    ).strip()
+
     if texto and texto[-1] not in ".!?…":
         corte = max(texto.rfind(c) for c in ".!?")
+
         if corte > len(texto) // 2:
             texto = texto[:corte + 1]
+
     return texto
 
 
