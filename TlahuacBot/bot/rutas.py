@@ -64,7 +64,10 @@ def chat_stream():
             yield json.dumps(linea, ensure_ascii=False) + "\n"
 
     return Response(
-        stream_with_context(eventos()),
-        mimetype="application/x-ndjson",
-        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
-    )
+    stream_with_context(eventos()),
+    content_type="application/x-ndjson; charset=utf-8",
+    headers={
+        "Cache-Control": "no-cache",
+        "X-Accel-Buffering": "no",
+    },
+)
