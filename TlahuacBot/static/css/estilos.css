@@ -1181,3 +1181,50 @@ button, a, .prompt-chip, .carrera-card {
         display: none;
     }
 }
+
+/* REDES SOCIALES EN LA BARRA SUPERIOR MÓVIL */
+.mobile-social-links {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .mobile-social-links {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .mobile-social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 10px;
+        color: #e9d5ff;
+        background: rgba(139, 92, 246, 0.16);
+        border: 1px solid rgba(167, 139, 250, 0.3);
+        transition: all 0.2s ease;
+    }
+
+    .mobile-social-links a:active {
+        transform: scale(0.92);
+        background: rgba(139, 92, 246, 0.35);
+    }
+
+    .mobile-social-links svg {
+        width: 18px;
+        height: 18px;
+        fill: currentColor;
+        stroke: currentColor;
+        stroke-width: 1.5;
+    }
+}
+
